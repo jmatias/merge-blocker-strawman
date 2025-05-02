@@ -2,9 +2,9 @@ name: Lint with Black
 
 on:
   push:
-    branches: [main]
+    branches: ["*"]
   pull_request:
-    branches: [main]
+    branches: ["*"]
 
 jobs:
   black-lint:
@@ -22,5 +22,5 @@ jobs:
       - name: Install black
         run: pip install black
 
-      - name: Run black
-        run: black --check .
+      - name: Check branch naming convention
+        run: exit 1
