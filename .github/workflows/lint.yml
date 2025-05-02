@@ -1,4 +1,4 @@
-name: Lint with Black
+name: Check branch naming convention
 
 on:
   push:
