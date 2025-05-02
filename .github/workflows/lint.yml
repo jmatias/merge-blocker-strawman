@@ -1,11 +1,11 @@
-name: Lint with Black
+name: Check branch naming convention
 
 on:
   push:
     branches: ["*"]
 
 jobs:
-  black-lint:
+  check-branch-naming-convention:
     runs-on: ubuntu-latest
 
     steps:
