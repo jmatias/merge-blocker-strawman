@@ -5,7 +5,7 @@ on:
     branches: ["*"]
 
 jobs:
-  check-branch-naming-convention:
+  validate-jira-story:
     runs-on: ubuntu-latest
 
     steps:
